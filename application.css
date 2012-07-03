@@ -1,0 +1,22 @@
+div.main{
+	width:800px;
+	height:560px;
+	margin:10px auto 0px auto;
+	background:#FEFEFE;
+}
+
+div.form{
+	width:800px;
+	height:200px;
+}
+
+div.result{
+	width:800px;
+	height:290px;
+	background:#EFEFEF;
+	overflow:auto;
+}
+
+input[type=text]{
+	width:300px;
+}
