@@ -3,7 +3,7 @@ $(document).ready(function() {
 		alert("Speech input is not supported in your browser.");
 	}
 
-	$("#speech").change(function(){ 
+	$("#speech").bind('webkitspeechchange', function(){ 
 		$.ajax({ 
 			data: "speech=" + $(this).val(), 
 			type: "GET", 
@@ -18,4 +18,7 @@ $(document).ready(function() {
 			} 
 		});
 	});
+
+	//onwebkitstartspeechinput();
 });
+
